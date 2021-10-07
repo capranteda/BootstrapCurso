@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <title>Accordion</title>
+</head>
+
+<body>
+    <div class="container mt-5">
+        <h1 class="text-primary">Accordion!</h1>
+
+        <div class="accordion" id="contenedor-principal">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button type="button" class="accordion-button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Accordion item 1
+          </button>
+                </h2>
+                <div class="accordion-collapse collapse show" id="collapseOne" aria-labelledby="headingOne" data-bs-parent="#contenedor-principal">
+                    <div class="accordion-body">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit quod quibusdam distinctio sapiente vero placeat. Alias, repudiandae suscipit! Adipisci molestiae ad in dicta libero fugit ut nam nostrum ipsam porro debitis eaque veritatis rerum,
+                        ullam similique obcaecati! Sit nam cumque dolor voluptate, voluptates reiciendis, expedita unde esse dolore natus rem.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button type="button" class="accordion-button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Accordion item 2
+          </button>
+                </h2>
+                <div class="accordion-collapse collapse" id="collapseTwo" aria-labelledby="headingTwo" data-bs-parent="#contenedor-principal">
+                    <div class="accordion-body">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit quod quibusdam distinctio sapiente vero placeat. Alias, repudiandae suscipit! Adipisci molestiae ad in dicta libero fugit ut nam nostrum ipsam porro debitis eaque veritatis rerum,
+                        ullam similique obcaecati! Sit nam cumque dolor voluptate, voluptates reiciendis, expedita unde esse dolore natus rem.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button type="button" class="accordion-button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Accordion item 3
+          </button>
+                </h2>
+                <div class="accordion-collapse collapse" id="collapseThree" aria-labelledby="headingThree" data-bs-parent="#contenedor-principal">
+                    <div class="accordion-body">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit quod quibusdam distinctio sapiente vero placeat. Alias, repudiandae suscipit! Adipisci molestiae ad in dicta libero fugit ut nam nostrum ipsam porro debitis eaque veritatis rerum,
+                        ullam similique obcaecati! Sit nam cumque dolor voluptate, voluptates reiciendis, expedita unde esse dolore natus rem.
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+</body>
+
+</html>
